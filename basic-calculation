@@ -54,7 +54,7 @@ while true; do
             exit 0
             ;;
         *)
-            echo "Invalid option. Please select a valid option."
+            echo "Invalid option. Please try again."
             ;;
     esac
 
