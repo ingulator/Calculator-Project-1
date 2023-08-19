@@ -1,11 +1,12 @@
 #! /bin/bash
-
+source validations.sh
 function promptUser(){
     read -p "Please enter two numbers: " number1 number2 
 }
 
 function add(){
     promptUser
+    verify_args $number1 $number2
     echo $(( number1+number2 ))
     echo
     selection
@@ -13,6 +14,7 @@ function add(){
 
 function multiply(){
     promptUser
+    verify_args $number1 $number2
     echo $(( number1*number2 ))
     echo
     selection
@@ -20,6 +22,7 @@ function multiply(){
 
 function divide(){
     promptUser
+    verify_args $number1 $number2
     echo $(( number1/number2 ))
     echo
     selection
@@ -27,6 +30,7 @@ function divide(){
 
 function power_of(){
     promptUser
+    verify_args $number1 $number2
     echo $(( number1**number2 ))
     echo
     selection
@@ -34,6 +38,7 @@ function power_of(){
 
 function modulus(){
     promptUser
+    verify_args $number1 $number2
     echo $(( number1%number2 ))
     echo
     selection
@@ -41,6 +46,7 @@ function modulus(){
 
 function subtract(){
     promptUser
+    verify_args $number1 $number2
     echo $(( number1-number2 ))
     echo
     selection
