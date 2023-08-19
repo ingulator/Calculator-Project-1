@@ -6,7 +6,7 @@ do
 		add()
 		;;
 		Subtract)
-		substract()
+		subtract()
 		;;
 		Multiply)
 		multiply()
@@ -15,7 +15,7 @@ do
 		divide()
 		;;
 		"Power of")
-		power of()
+		power_of()
 		;;
 		Modulus)
 		modulus()
