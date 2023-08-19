@@ -23,7 +23,7 @@ function multiply(){
 function divide(){
     promptUser
     verify_args $number1 $number2
-    echo $(( number1/number2 ))
+    echo "number1/number2" | bc -l
     echo
     selection
 }
