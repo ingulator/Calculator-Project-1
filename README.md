@@ -1,2 +1,3 @@
 # Calculator-Project-1 
-galgulator
+# start the calculator by the following command:
+# ./main.sh
